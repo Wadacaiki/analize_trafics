@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Отчёт по сетевому трафику</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; }
+    h1, h2 { color: #1a365d; }
+    table { border-collapse: collapse; width: 60%; margin-bottom: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background: #edf2f7; }
+    .charts img { max-width: 480px; margin-right: 16px; }
+  </style>
+</head>
+<body>
+  <h1>Отчёт по анализу сетевого трафика</h1>
+  <p><b>Период:</b> 19.06.2026 22:12 — 19.06.2026 23:12</p>
+  <p><b>Категория:</b> Веб-трафик</p>
+  <p><b>Всего пакетов:</b> 189</p>
+  <p><b>Объём данных:</b> 224.2 KB</p>
+  <p><b>Подключений:</b> 2</p>
+
+  <div class="charts">
+    <img src="20260619_231230_pie.png" alt="Категории">
+    <img src="20260619_231230_bar.png" alt="Протоколы">
+  </div>
+
+  <h2>По категориям</h2>
+  <table><tr><th>Категория</th><th>Объём</th></tr><tr><td>Видеостриминг</td><td>2.09 MB</td></tr><tr><td>Веб-трафик</td><td>224.2 KB</td></tr><tr><td>DNS</td><td>23.9 KB</td></tr><tr><td>Системный</td><td>20.9 KB</td></tr></table>
+
+  <h2>По протоколам</h2>
+  <table><tr><th>Протокол</th><th>Объём</th></tr><tr><td>TCP</td><td>2.31 MB</td></tr><tr><td>UDP</td><td>23.9 KB</td></tr><tr><td>ICMP</td><td>20.9 KB</td></tr></table>
+
+  <p><i>Сформировано: 19.06.2026 23:12:31</i></p>
+</body>
+</html>

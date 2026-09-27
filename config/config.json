@@ -1,0 +1,30 @@
+{
+  "capture": {
+    "interface": null,
+    "bpf_filter": "",
+    "demo_mode": true
+  },
+  "thresholds": {
+    "bytes_per_minute": 10485760,
+    "connections_per_minute": 500,
+    "anomaly_z_score": 2.5
+  },
+  "notifications": {
+    "email_enabled": false,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "smtp_user": "",
+    "smtp_password": "",
+    "email_to": "",
+    "telegram_enabled": false,
+    "telegram_bot_token": "",
+    "telegram_chat_id": ""
+  },
+  "classification": {
+    "use_ml": true,
+    "model_path": "data/traffic_model.joblib"
+  },
+  "storage": {
+    "db_path": "data/traffic.db"
+  }
+}
